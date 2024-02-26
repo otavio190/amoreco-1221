@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a56b6b;
+}
+
+#container {
+    position: relative;
+}
+
+#heart {
+    width: 1000px;
+    height: auto;
+    position: center;
+    top: 100%;
+    left: -9%;
+    transform: translate(-50%, -50%);
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(0.75);
+    }
+    20% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(0.75);
+    }
+    60% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(0.75);
+    }
+    100% {
+        transform: scale(0.75);
+    }
+}
+
+
+
+
+    #container {
+        position: relative;
+        text-align: center;
+    }
+
+
+ 
+
+    input[type="text"] {
+        width: 300px; /* Largura maior do campo de texto */
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 2px solid #e74c3c; /* Cor da borda do campo de texto */
+        outline: none;
+    }
+ 
+
+    #container {
+        position: relative;
+        text-align: center;
+    }
+
+    #heart {
+        width: 300px; /* Tamanho maior do coração */
+        height: auto;
+        margin-bottom: 30px; /* Espaço abaixo do coração */
+    }
+
+    #textInput {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    input[type="text"] {
+        display: none; /* Oculta o campo de texto */
+    }
+
+    #fixedText {
+        font-size: 20px;
+        color: #000000; /* Cor do texto */
+    }
+
+ 
+ 
